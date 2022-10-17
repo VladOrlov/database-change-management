@@ -37,9 +37,4 @@ object App {
     }
   }
 
-  private def getApplicationParametersFunc(args: Array[String]): ApplicationParameters = {
-    None
-  }
-
-
 }
