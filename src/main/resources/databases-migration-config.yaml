@@ -1,0 +1,18 @@
+default: &default
+  changeLogPath: "databases_changelogs/db.changelog-master.xml"
+
+  databaseMigrations:
+    - server: "localhost"
+      databaseDriver: "mysql"
+      port: "4406"
+      user: "root"
+      password: "admin"
+      schemaName: "ikea"
+
+    - server: "localhost"
+      databaseDriver: "mysql"
+      port: "4406"
+      user: "root"
+      password: "admin"
+      schemaName: "nike"
+
